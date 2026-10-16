@@ -22,9 +22,9 @@
       <div class="field full"><label for="reportDescription">What is the fire or safety issue? *</label><textarea id="reportDescription" required placeholder="Describe the issue clearly, including the equipment or area affected"></textarea></div>
       <div class="field"><label for="reportLocation">Building / location</label><input id="reportLocation" placeholder="Building, floor, room or area"></div>
       <div class="field"><label for="reporterName">Your name *</label><input id="reporterName" required autocomplete="name" placeholder="Full name"></div>
-      
-      <div class="field"><label for="reportAssignee">Responsible person (if known)</label><input id="reportAssignee" placeholder="Optional"></div>
-      
+
+      <div class="field"><label for="reportAssignee">Responsible person (if known)</label><select id="reportAssignee"><option value="">Select a person (optional)</option><option value="YASHU PATIL K K">YASHU PATIL K K</option><option value="Shes Nath Kewat">Shes Nath Kewat</option><option value="Balaji Singh L">Balaji Singh L</option><option value="Sathiskumar Ganesan">Sathiskumar Ganesan</option></select></div>
+
     </div><div class="modal-foot"><button class="btn btn-primary" type="submit" id="submitReportBtn">Submit report</button></div></form>
     <div id="reportSuccess" class="success-card" hidden><div class="success-icon">✓</div><div><h2>Report submitted</h2><p id="reportSuccessText"></p><a id="trackTicketLink" class="btn btn-light" href="#">Save private status link</a></div></div>
   </div>
